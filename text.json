@@ -1,0 +1,160 @@
+{"text":[
+	{
+		"ID":"1",
+		"content":"At three o'clock precisely I was at Baker Street, but Holmes had not yet returned. The landlady informed me that he had left the house shortly after eight o'clock in the morning. I sat down beside the fire, however, with the intention of awaiting him, however long he might be. I was already deeply interested in his inquiry, for, though it was surrounded by none of the grim and strange features which were associated with the two crimes which I have already recorded, still, the nature of the case and the exalted station of his client gave it a character of its own. Indeed, apart from the nature of the investigation which my friend had on hand, there was something in his masterly grasp of a situation, and his keen, incisive reasoning, which made it a pleasure to me to study his system of work, and to follow the quick, subtle methods by which he disentangled the most inextricable mysteries. So accustomed was I to his invariable success that the very possibility of his failing had ceased to enter into my head. It was close upon four before the door opened, and a drunken-looking groom, ill-kempt and side-whiskered, with an inflamed face and disreputable clothes, walked into the room. Accustomed as I was to my friend's amazing powers in the use of disguises, I had to look three times before I was certain that it was indeed he. With a nod he vanished into the bedroom, whence he emerged in five minutes tweed-suited and respectable, as of old. Putting his hands into his pockets, he stretched out his legs in front of the fire and laughed heartily for some minutes.",
+        "questions": [
+            {
+                "question": "When did sherlock holmes leave the house?",
+                "answers":[
+                    {
+                    	"text":"Morning",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"At 8",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"After 8",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Just before 8",
+                    	"correct":""
+                    }
+                ]
+            },
+            {
+                "question": "How was sherlock described?",
+                "answers":[
+                    {
+                        "text":"drunken-looking groom, side-whiskered and ill-kempt, with an inflamed face and disreputable clothes",
+                        "correct":""
+                    },
+                    {
+                        "text":"drunken, ill-kempt and side-whiskered looking groom, with disreputable clothes and an inflamed face",
+                        "correct":""
+                    },
+                    {
+                        "text":"drunken-looking groom with an inflamed face, disreputable clothes, ill-kempt and side-whiskered",
+                        "correct":""
+                    },
+                    {
+                        "text":"drunken-looking groom, ill-kempt and side-whiskered, with an inflamed face and disreputable clothes",
+                        "correct":""
+                    }
+                ]
+            },
+            {
+                "question": "What was the first thing that sherlock did as he entered the room?",
+                "answers":[
+                    {
+                    	"text":"Stretch out his legs in front of the fire",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Put his hands in his pockets",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Vanished into the bedroom to change clothes",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Gave a nod",
+                    	"correct":""
+                    }
+                ]
+            }
+        ]
+
+	},
+	{
+		"ID":"2",
+		"content":"The nobleman swung his glasses a little faster and stared down into the fire. \"You see, Mr. Holmes,\" said he, \"my wife was twenty before her father became a rich man. During that time she ran free in a mining camp and wandered through woods or mountains, so that her education has come from Nature rather than from the schoolmaster. She is what we call in England a tomboy, with a strong nature, wild and free, unfettered by any sort of traditions. She is impetuous—volcanic, I was about to say. She is swift in making up her mind and fearless in carrying out her resolutions. On the other hand, I would not have given her the name which I have the honour to bear\"—he gave a little stately cough—\"had not I thought her to be at bottom a noble woman. I believe that she is capable of heroic self-sacrifice and that anything dishonourable would be repugnant to her.\" \"Have you her photograph?\" \"I brought this with me.\" He opened a locket and showed us the full face of a very lovely woman. It was not a photograph but an ivory miniature, and the artist had brought out the full effect of the lustrous black hair, the large dark eyes, and the exquisite mouth. Holmes gazed long and earnestly at it. Then he closed the locket and handed it back to Lord St. Simon. \"The young lady came to London, then, and you renewed your acquaintance?\" \"Yes, her father brought her over for this last London season. I met her several times, became engaged to her, and have now married her.\" \"She brought, I understand, a considerable dowry?\" \"A fair dowry. Not more than is usual in my family.\" \"And this, of course, remains to you, since the marriage is a fait accompli?\" \"I really have made no inquiries on the subject.\"",
+        "questions": [
+            {
+                "question": "What is the girl described as in England?",
+                "answers":[
+                    {
+                    	"text":"Wild and free, unfettered by any sorts of tradition",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Strong nature, wild, unfettered by any sorts of traditions",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"A tomboy",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"strong nature, wild and free, unfettered by any sort of traditions",
+                    	"correct":""
+                    }
+                ]
+            },
+            {
+                "question": "What did he do when his wife came to London according to him?",
+                "answers":[
+                    {
+                    	"text":"Renewed his acquaintance",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Met with Sherlock Holmes",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Brought a considerable dowry",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"Brought a fair dowry",
+                    	"correct":""
+                    }
+                ]
+            },
+            {
+                "question":"What was in the locket?",
+                "answers":[
+                    {
+                    	"text":"A picture of his wife",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"A picture of a very lovely woman with lustrous black hair, large dark eyes, and an exquisite mouth",
+                    	"correct":""
+                    },
+                    {
+                    	"text":"An ivory miniature of a woman",
+                    	"correct":""
+                    }
+                    
+                ]
+            },
+            {
+                "question": "What was the name of the man who seeked help from Sherlock Holmes?",
+                "answers":[
+                    {
+                    	"text":"St. Simon",
+                    	"content":""
+                   	},
+                    {
+                    	"text":"Lord St. Simon",
+                    	"content":""
+                   	},
+                    {
+                    	"text":"The Nobleman",
+                    	"content":""
+                   	},
+                    {
+                    	"text":"Lord Simon",
+                    	"content":""
+                   	}
+                ]
+            }
+        ]
+    }
+]
+}
