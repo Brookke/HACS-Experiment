@@ -13,7 +13,7 @@
     root['SignaturePad'] = factory();
   }
 }(this, function () {
-
+]
 /*!
  * Signature Pad v1.5.2
  * https://github.com/szimek/signature_pad

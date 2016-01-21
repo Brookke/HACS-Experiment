@@ -8,19 +8,19 @@
                 "answers":[
                     {
                     	"text":"Morning",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"At 8",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"After 8",
-                    	"correct":""
+                    	"correct":true
                     },
                     {
                     	"text":"Just before 8",
-                    	"correct":""
+                    	"correct":false
                     }
                 ]
             },
@@ -29,19 +29,19 @@
                 "answers":[
                     {
                         "text":"drunken-looking groom, side-whiskered and ill-kempt, with an inflamed face and disreputable clothes",
-                        "correct":""
+                        "correct":false
                     },
                     {
                         "text":"drunken, ill-kempt and side-whiskered looking groom, with disreputable clothes and an inflamed face",
-                        "correct":""
+                        "correct":false
                     },
                     {
                         "text":"drunken-looking groom with an inflamed face, disreputable clothes, ill-kempt and side-whiskered",
-                        "correct":""
+                        "correct":false
                     },
                     {
                         "text":"drunken-looking groom, ill-kempt and side-whiskered, with an inflamed face and disreputable clothes",
-                        "correct":""
+                        "correct":true
                     }
                 ]
             },
@@ -50,19 +50,19 @@
                 "answers":[
                     {
                     	"text":"Stretch out his legs in front of the fire",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"Put his hands in his pockets",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"Vanished into the bedroom to change clothes",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"Gave a nod",
-                    	"correct":""
+                    	"correct":true
                     }
                 ]
             }
@@ -78,19 +78,19 @@
                 "answers":[
                     {
                     	"text":"Wild and free, unfettered by any sorts of tradition",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"Strong nature, wild, unfettered by any sorts of traditions",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"A tomboy",
-                    	"correct":""
+                    	"correct":true
                     },
                     {
                     	"text":"strong nature, wild and free, unfettered by any sort of traditions",
-                    	"correct":""
+                    	"correct":false
                     }
                 ]
             },
@@ -99,19 +99,19 @@
                 "answers":[
                     {
                     	"text":"Renewed his acquaintance",
-                    	"correct":""
+                    	"correct":true
                     },
                     {
                     	"text":"Met with Sherlock Holmes",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"Brought a considerable dowry",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"Brought a fair dowry",
-                    	"correct":""
+                    	"correct":false
                     }
                 ]
             },
@@ -120,15 +120,15 @@
                 "answers":[
                     {
                     	"text":"A picture of his wife",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"A picture of a very lovely woman with lustrous black hair, large dark eyes, and an exquisite mouth",
-                    	"correct":""
+                    	"correct":false
                     },
                     {
                     	"text":"An ivory miniature of a woman",
-                    	"correct":""
+                    	"correct":true
                     }
                     
                 ]
@@ -138,19 +138,19 @@
                 "answers":[
                     {
                     	"text":"St. Simon",
-                    	"content":""
+                    	"content":false
                    	},
                     {
                     	"text":"Lord St. Simon",
-                    	"content":""
+                    	"content":true
                    	},
                     {
                     	"text":"The Nobleman",
-                    	"content":""
+                    	"content":false
                    	},
                     {
                     	"text":"Lord Simon",
-                    	"content":""
+                    	"content":false
                    	}
                 ]
             }
