@@ -6,8 +6,17 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/cookies.js"></script>
         <script type="text/javascript" src="js/finish.js"></script>
-        
-        
+        <style type="text/css">
+        em {
+            font-size: 0.9rem;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            padding-top: 10px; 
+            border-top: 1px solid black; 
+        }
+        </style>
     </head>
     <body>
         <form method="POST" action="//api.cloudstitch.com/brooke/magic-form-6/datasources/sheet" class="form">
@@ -21,8 +30,51 @@
                 <input type="text" name="text2LH" id="text2LH" class="form-control non-user">
                 <input type="text" name="text2Counter" id="text2Counter" class="form-control non-user">
                 <input type="text" name="text2Score" id="text2Score" class="form-control non-user">
-                
-                <label>Age:</label><br />
+
+                <label>Which text did you prefer to read:</label>
+                <select name="textPreference" id="textPreference">
+                    <option selected disabled hidden value=''></option>
+                    <option value="1">The First</option>
+                    <option value="2">The Second</option>
+                </select>
+
+                <label>How easy was text 1 to read:</label>
+                <table width="100%">
+                  <tr>
+                    <th>Very<br />Difficult</th>
+                    <th>Difficult</th>
+                    <th>Neither</th>
+                    <th>Easy</th>
+                    <th>Very<br />Easy</th>
+                  </tr>
+                  <tr>
+                    <td><input type="radio" name="text1Difficulty" value="1"></td>
+                    <td><input type="radio" name="text1Difficulty" value="2"></td>
+                    <td><input type="radio" name="text1Difficulty" value="3"></td>
+                    <td><input type="radio" name="text1Difficulty" value="4"></td>
+                    <td><input type="radio" name="text1Difficulty" value="5"></td>
+                  </tr>
+                </table>
+
+                <label>How easy was text 2 to read:</label>
+                <table width="100%">
+                  <tr>
+                    <th>Very<br />Difficult</th>
+                    <th>Difficult</th>
+                    <th>Neither</th>
+                    <th>Easy</th>
+                    <th>Very<br />Easy</th>
+                  </tr>
+                  <tr>
+                    <td><input type="radio" name="text2Difficulty" value="1"></td>
+                    <td><input type="radio" name="text2Difficulty" value="2"></td>
+                    <td><input type="radio" name="text2Difficulty" value="3"></td>
+                    <td><input type="radio" name="text2Difficulty" value="4"></td>
+                    <td><input type="radio" name="text2Difficulty" value="5"></td>
+                  </tr>
+                </table>
+
+                <label>Age:</label>
                 <select name="age" id="age">
                     <option selected disabled hidden value=''></option>
                     <option value="16-25">16-25</option>
@@ -32,34 +84,35 @@
                     <option value="56-65">56-65</option>
                     <option value="66-75">66-75</option>
                     <option value="76+">76+</option>
-                </select><br />
+                </select>
                 
-                <label>Gender:</label><br />
+                <label>Gender:</label>
                 <select name="gender" id="gender">
                     <option selected disabled hidden value=''></option>
                     <option value="M">Male</option>
                     <option value="F">Female</option>
                     <option value="Prefer Not to Say">Prefer Not to Say</option>
                     <option value="Other">Other</option>
-                </select><br />
+                </select>
 
-                <label>Location Exprement taken in:</label><br />
+                <label>Location Exprement taken in:</label>
                 <select name="location" id="location">
                     <option selected disabled hidden value=''></option>
                     <option value="Home">Home/Flat</option>
                     <option value="Office">Office</option>
                     <option value="Outside">Outside</option>
                     <option value="Other">Other</option>
-                </select><br />
-                <label>Do you suffer from dyslexia:</label><br />
+                </select>
+
+                <label>Do you suffer from dyslexia:</label>
                 <select name="dyslexia" id="dyslexia">
                     <option selected disabled hidden value=''></option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                     <option value="Prefer not to say">Prefer not to say</option>
-                </select><br />
+                </select>
                 </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn button-0 btn-success">Submit</button>
                 </div>
         </form>      
         
