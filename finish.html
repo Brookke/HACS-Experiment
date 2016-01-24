@@ -21,7 +21,8 @@
     <body>
         <form method="POST" action="//api.cloudstitch.com/brooke/magic-form-6/datasources/sheet" class="form">
             <div class="form-group">
-                <input type="text" name="img" id="img" class="form-control non-user">
+                <input type="text" name="date" id="date" class="form-control non-user">
+                <input type="text" name="signature" id="signature" class="form-control non-user">
                 <input type="text" name="text1ID" id="text1ID" class="form-control non-user">
                 <input type="text" name="text1LH" id="text1LH" class="form-control non-user">
                 <input type="text" name="text1Counter" id="text1Counter" class="form-control non-user">
@@ -31,11 +32,13 @@
                 <input type="text" name="text2Counter" id="text2Counter" class="form-control non-user">
                 <input type="text" name="text2Score" id="text2Score" class="form-control non-user">
 
+
                 <label>Which text did you prefer to read:</label>
                 <select name="textPreference" id="textPreference">
                     <option selected disabled hidden value=''></option>
                     <option value="1">Text 1</option>
                     <option value="2">Text 2</option>
+                    <option value="0">Neither</option>
                 </select>
 
                 <label>How easy was text 1 to read:</label>
@@ -111,6 +114,7 @@
                     <option value="No">No</option>
                     <option value="Prefer not to say">Prefer not to say</option>
                 </select>
+
                 </div>
                     <button type="submit" class="btn button-0 btn-success">Submit</button>
                 </div>
