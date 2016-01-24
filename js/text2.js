@@ -2,9 +2,23 @@ $(function() {
     var textID, lineHeight
 	$.getJSON("text.json", function(data) {
         if (readCookie("text1ID") == 1) {
-            text = data.text[1]
-        } else {
-              text = data.text[0]
+            if (getRandomInt(1,2) == 1) {
+                text = data.text[1]
+            } else {
+                text = data.text[2]
+            }
+        } else if (readCookie("text1ID") == 2) {
+            if (getRandomInt(1,2) == 1) {
+                text = data.text[0]
+            } else {
+                text = data.text[2]
+            }
+        } else if (readCookie("text1ID") == 3) {
+            if (getRandomInt(1,2) == 1) {
+                text = data.text[0]
+            } else {
+                text = data.text[1]
+            }
         }
     	textID = text.ID
         console.log(textID)

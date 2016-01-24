@@ -155,6 +155,80 @@
                 ]
             }
         ]
+    },
+    {
+        "ID":"3",
+        "content": "Sherlock Holmes and I had no difficulty in engaging a bedroom and sitting-room at the Crown Inn. They were on the upper floor, and from our window we could command a view of the avenue gate, and of the inhabited wing of Stoke Moran Manor House. At dusk we saw Dr. Grimesby Roylott drive past, his huge form looming up beside the little figure of the lad who drove him. The boy had some slight difficulty in undoing the heavy iron gates, and we heard the hoarse roar of the doctor's voice and saw the fury with which he shook his clinched fists at him. The trap drove on, and a few minutes later we saw a sudden light spring up among the trees as the lamp was lit in one of the sitting-rooms. \"Do you know, Watson,\" said Holmes as we sat together in the gathering darkness, \"I have really some scruples as to taking you to-night. There is a distinct element of danger.\" \"Can I be of assistance?\" \"Your presence might be invaluable.",
+        "questions": [
+            {
+                "question": "Where did sherlock and watson stay the night?",
+                "answers": [
+                    {
+                        "text": "bedroom with a sitting room",
+                        "correct": false
+                    },
+                    {
+                        "text": "Bedroom with a window",
+                        "correct": false
+                    },
+                    {
+                        "text": "Sitting room with a commanding view",
+                        "correct": false
+                    },
+                    {
+                        "text": "An upper floor bedroom",
+                        "correct": false
+                    },
+                    {
+                        "text": "All of the above",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "When did they see Dr Grimesby walk past?",
+                "answers": [
+                    {
+                        "text": "dawn",
+                        "correct": false
+                    },
+                    {
+                        "text": "dusk",
+                        "correct": true
+                    },
+                    {
+                        "text": "noon",
+                        "correct": false
+                    },
+                    {
+                        "text": "mid-morning",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "question": "What happened when the boy had difficulty opening the gates?",
+                "answers": [
+                    {
+                        "text": "hearing the fury in the doctor's voice",
+                        "correct": true
+                    },
+                    {
+                        "text": "Hearing the hoarse roar of the engine",
+                        "correct": false
+                    },
+                    {
+                        "text": "Saw a lamp light up one of the sitting rooms",
+                        "correct": false
+                    },
+                    {
+                        "text": "The doctor shook with fury",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
     }
 ]
 }
+

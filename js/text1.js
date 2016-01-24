@@ -1,12 +1,9 @@
 $(function() {
     var textID, lineHeight
-    function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-	}
 
 	
 	$.getJSON("text.json", function(data) {
-    	text = data.text[getRandomInt(0,1)]
+    	text = data.text[getRandomInt(0,2)]
     	textID = text.ID
         console.log(textID)
     	if (getRandomInt(0,1) == 1) {

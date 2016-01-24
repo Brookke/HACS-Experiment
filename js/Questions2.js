@@ -4,8 +4,10 @@ $(function() {
 	$.getJSON("text.json", function(data) {
         if (readCookie("text2ID") == 1) {
             text = data.text[0]
-        } else {
+        } else if (readCookie("text2ID") == 2) {
             text = data.text[1]
+        } else if (readCookie("text2ID") == 3) {
+            text = data.text[2]
         }
         for (var i = 0; i < text.questions.length; i++) {
             $("#questions").append("<fieldset id='"+ i +"'><legend>"+ text.questions[i].question +"</legend>")
