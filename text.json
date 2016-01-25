@@ -1,68 +1,68 @@
 {"text":[
 	{
 		"ID":"1",
-		"content":"At three o'clock precisely I was at Baker Street, but Holmes had not yet returned. The landlady informed me that he had left the house shortly after eight o'clock in the morning. I sat down beside the fire, however, with the intention of awaiting him, however long he might be. I was already deeply interested in his inquiry, for, though it was surrounded by none of the grim and strange features which were associated with the two crimes which I have already recorded, still, the nature of the case and the exalted station of his client gave it a character of its own. Indeed, apart from the nature of the investigation which my friend had on hand, there was something in his masterly grasp of a situation, and his keen, incisive reasoning, which made it a pleasure to me to study his system of work, and to follow the quick, subtle methods by which he disentangled the most inextricable mysteries. So accustomed was I to his invariable success that the very possibility of his failing had ceased to enter into my head. It was close upon four before the door opened, and a drunken-looking groom, ill-kempt and side-whiskered, with an inflamed face and disreputable clothes, walked into the room. Accustomed as I was to my friend's amazing powers in the use of disguises, I had to look three times before I was certain that it was indeed he. With a nod he vanished into the bedroom, whence he emerged in five minutes tweed-suited and respectable, as of old. Putting his hands into his pockets, he stretched out his legs in front of the fire and laughed heartily for some minutes.",
+        "content": "Lennie went behind the tree and brought out a litter of dried leaves and twigs. He threw them in a heap on the old ash pile and went back for more and more. It was almost night now. A dove\u2019s wings whistled over the water. George walked to the fire pile and lighted the dry leaves. The flame cracked up among the twigs and fell to work. George undid his bindle and brought out three cans of beans. He stood them about the fire, close in against the blaze, but not quite touching the flame.\r\n\r\n\u201CThere\u2019s enough beans for four men,\u201D George said. \r\n\r\nLennie watched him from over the fire. He said patiently, \u201CI like \u2018em with ketchup.\u201D \r\n\r\n\u201CWell, we ain\u2019t got any,\u201D George exploded. \u201CWhatever we ain\u2019t got, that\u2019s what you want. God a\u2019mighty, if I was alone I could live so easy. I could go get a job an\u2019 work, an\u2019 no trouble. No mess at all, and when the end of the month come I could take my fifty bucks and go into town and get whatever I want. Why, I could stay in a cat house all night. I could eat any place I want, hotel or any place, and order any damn thing I could think of. An\u2019 I could do all that every damn month. Get a gallon of whisky, or set in a pool room and play cards or shoot pool.\u201D Lennie knelt and looked over the fire at the angry George. And Lennie\u2019s face was drawn with terror. \u201CAn\u2019 whatta I got,\u201D George went on furiously. \u201CI got you! You can\u2019t keep a job and you lose me ever\u2019 job I get. Jus\u2019 keep me shoving\u2019 all over the country all the time. An\u2019 that ain\u2019t the worst. You get in trouble. You do bad things and I got to get you out.\u201D His voice rose nearly to a shout. \u201CYou crazy son-of-a-bitch. You keep me in hot water all the time.\u201D He took on the elaborate manner of little girls when they are mimicking one another. \u201CJus\u2019 wanted to feel that girl\u2019s dress \u2014 jus\u2019 wanted to pet it like it was a mouse \u2014 Well, how the hell did she know you jus\u2019 wanted to feel her dress? She jerks back and you hold on like it was a mouse. She yells and we got to hide in a irrigation ditch all day with guys lookin\u2019 for us, and we got to sneak out in the dark and get outta the country. All the time somethin\u2019 like that \u2014 all the time. I wisht I could put you in a cage with about a million mice an\u2019 let you have fun.\u201D His anger left him suddenly. He looked across the fire at Lennie\u2019s anguished face, and then he looked ashamedly at the flames. \r\n\r\nIt was quite dark now, but the fire lighted the trunks of the trees and the curving branches overhead. Lennie crawled slowly and cautiously around the fire until he was close to George. He sat back on his heels. George turned the bean cans so that another side faced the fire. He pretended to be unaware of Lennie so close beside him. \r\n\u201CGeorge,\u201D very softly. No answer. \u201CGeorge!\u201D \r\n\u201CWhatta you want?\u201D \r\n\u201CI was only foolin\u2019, George. I don\u2019t want no ketchup.\u201D",
         "questions": [
             {
-                "question": "When did sherlock holmes leave the house?",
+                "question": "Which phrase demonstrates Lennie's physical capacity for endurance?",
                 "answers":[
                     {
-                    	"text":"Morning",
+                    	"text":"\"Anguished face\"",
                     	"correct":false
                     },
                     {
-                    	"text":"At 8",
+                    	"text":"\"Not quite touching\"",
                     	"correct":false
                     },
                     {
-                    	"text":"After 8",
+                    	"text":"\"Threw them in a heap\"",
                     	"correct":true
                     },
                     {
-                    	"text":"Just before 8",
+                    	"text":"\"More and more\"",
                     	"correct":false
                     }
                 ]
             },
             {
-                "question": "How was sherlock described?",
+                "question": "What does the reader learn about George in this passage?",
                 "answers":[
                     {
-                        "text":"drunken-looking groom, side-whiskered and ill-kempt, with an inflamed face and disreputable clothes",
+                        "text":"He sometimes resents Lennie",
                         "correct":false
                     },
                     {
-                        "text":"drunken, ill-kempt and side-whiskered looking groom, with disreputable clothes and an inflamed face",
+                        "text":"He worries about the consequences of Lennie's actions",
                         "correct":false
                     },
                     {
-                        "text":"drunken-looking groom with an inflamed face, disreputable clothes, ill-kempt and side-whiskered",
+                        "text":"He feels ashamed for the way he sometimes behaves towards Lennie",
                         "correct":false
                     },
                     {
-                        "text":"drunken-looking groom, ill-kempt and side-whiskered, with an inflamed face and disreputable clothes",
+                        "text":"All of the above",
                         "correct":true
                     }
                 ]
             },
             {
-                "question": "What was the first thing that sherlock did as he entered the room?",
+                "question": "After George's outburst, how does the atmosphere change?",
                 "answers":[
                     {
-                    	"text":"Stretch out his legs in front of the fire",
+                    	"text":"It becomes still",
                     	"correct":false
                     },
                     {
-                    	"text":"Put his hands in his pockets",
+                    	"text":"It becomes dreary",
                     	"correct":false
                     },
                     {
-                    	"text":"Vanished into the bedroom to change clothes",
-                    	"correct":false
-                    },
-                    {
-                    	"text":"Gave a nod",
+                    	"text":"It becomes sorrowful",
                     	"correct":true
+                    },
+                    {
+                    	"text":"It becomes tense",
+                    	"correct":false
                     }
                 ]
             }
@@ -71,158 +71,137 @@
 	},
 	{
 		"ID":"2",
-		"content":"The nobleman swung his glasses a little faster and stared down into the fire. \"You see, Mr. Holmes,\" said he, \"my wife was twenty before her father became a rich man. During that time she ran free in a mining camp and wandered through woods or mountains, so that her education has come from Nature rather than from the schoolmaster. She is what we call in England a tomboy, with a strong nature, wild and free, unfettered by any sort of traditions. She is impetuous—volcanic, I was about to say. She is swift in making up her mind and fearless in carrying out her resolutions. On the other hand, I would not have given her the name which I have the honour to bear\"—he gave a little stately cough—\"had not I thought her to be at bottom a noble woman. I believe that she is capable of heroic self-sacrifice and that anything dishonourable would be repugnant to her.\" \"Have you her photograph?\" \"I brought this with me.\" He opened a locket and showed us the full face of a very lovely woman. It was not a photograph but an ivory miniature, and the artist had brought out the full effect of the lustrous black hair, the large dark eyes, and the exquisite mouth. Holmes gazed long and earnestly at it. Then he closed the locket and handed it back to Lord St. Simon. \"The young lady came to London, then, and you renewed your acquaintance?\" \"Yes, her father brought her over for this last London season. I met her several times, became engaged to her, and have now married her.\" \"She brought, I understand, a considerable dowry?\" \"A fair dowry. Not more than is usual in my family.\" \"And this, of course, remains to you, since the marriage is a fait accompli?\" \"I really have made no inquiries on the subject.\"",
+		"content":"The Maycomb jail was the most venerable and hideous of the county\u2019s buildings. Atticus said it was like something Cousin Joshua St Clair might have designed. It was certainly someone\u2019s dream. Starkly out of place in a town of square-faced stores and steep-roofed houses, the Maycomb jail was a miniature Gothic joke one cell wide and two cells high, complete with tiny battlements and flying buttresses. Its fantasy was heightened by its red brick fa\u00E7ade and the thick steel bars at its ecclesiastical windows. It stood on no lonely hill, but was wedged between Tyndal\u2019s Hardware Store and the Maycomb Tribune office. The jail was Maycomb\u2019s only conversation piece: its detractors said it looked like a Victorian privy; its supporters said it gave the town a good solid respectable look, and no stranger would ever suspect that it was full of niggers. \r\n\r\nAs we walked up the sidewalk, we saw a solitary light burning in the distance. \u201CThat\u2019s funny,\u201D said Jem, \u201Cjail doesn\u2019t have an outside light.\u201D \r\n\r\n\u201CLooks like it\u2019s over the door,\u201D said Dill. \r\n\r\nA long extension cord ran between the bars of a second floor window and down the side of the building. In the light from its bare bulb, Atticus was sitting propped against the front door. He was sitting in one of his office chairs, and he was reading, oblivious of the nightbugs dancing over his head. \r\n\r\nI made to run, but Jem caught me. \u201CDon\u2019t go to him,\u201D he said, \u201Che might not like it. He\u2019s all right, let\u2019s go home. I just wanted to see where he was.\u201D \r\n\r\nWe were taking a short cut across the square when four dusty cars came in from the Meridian highway, moving slowly in a line. They went around the square, passed the bank building, and stopped in front of the jail. \r\n\r\nNobody got out. We saw Atticus look up from his newspaper. He closed it, folded it deliberately, dropped it in his lap, and pushed his hat to the back of his head. He seemed to be expecting them. \r\n\r\n\u201CCome on,\u201D whispered Jem. We sneaked across the square, across the street, until we were in the shelter of the Jitney Jungle door. Jem peeked up the sidewalk. \u201CWe can get closer,\u201D he said. We ran to Tyndal\u2019s Hardware door \u2014 near enough, at the same time discreet. \r\n\r\nIn ones and twos, men got out of the cars. Shadows became substance as light revealed solid shapes moving towards the jail door. Atticus remained where he was. The men hid him from view. \r\n\r\n\u201CHe in there, Mr Finch?\u201D a man said. \r\n\r\n\u201CHe is,\u201D we heard Atticus answer, \u201Cand he\u2019s asleep. Don\u2019t wake him up.\u201D",
         "questions": [
             {
-                "question": "What is the girl described as in England?",
+                "question": "Which of the following best describes the atmosphere of this passage?",
                 "answers":[
                     {
-                    	"text":"Wild and free, unfettered by any sorts of tradition",
+                    	"text":"Sombre",
                     	"correct":false
                     },
                     {
-                    	"text":"Strong nature, wild, unfettered by any sorts of traditions",
+                    	"text":"Menacing",
                     	"correct":false
                     },
                     {
-                    	"text":"A tomboy",
+                    	"text":"Suspenseful",
+                    	"correct":false
+                    },
+                    {
+                    	"text":"All of the above",
+                    	"correct":true
+                    }
+                ]
+            },
+            {
+                "question": "What makes the jail's physical appearance rather absurd?",
+                "answers":[
+                    {
+                    	"text":"Its architectural style is much more grand than that of the rest of town",
                     	"correct":true
                     },
                     {
-                    	"text":"strong nature, wild and free, unfettered by any sort of traditions",
+                    	"text":"It is too plain",
+                    	"correct":false
+                    },
+                    {
+                    	"text":"Its large size makes it stand out from the other buildings on the square",
+                    	"correct":false
+                    },
+                    {
+                    	"text":"It looks shabby in comparison to the other buildings",
                     	"correct":false
                     }
                 ]
             },
             {
-                "question": "What did he do when his wife came to London according to him?",
+                "question":"How is Atticus presented in this passage?",
                 "answers":[
                     {
-                    	"text":"Renewed his acquaintance",
-                    	"correct":true
-                    },
-                    {
-                    	"text":"Met with Sherlock Holmes",
+                    	"text":"As careless of consequences",
                     	"correct":false
                     },
                     {
-                    	"text":"Brought a considerable dowry",
+                    	"text":"As stern and uncaring",
                     	"correct":false
                     },
                     {
-                    	"text":"Brought a fair dowry",
-                    	"correct":false
-                    }
-                ]
-            },
-            {
-                "question":"What was in the locket?",
-                "answers":[
-                    {
-                    	"text":"A picture of his wife",
+                    	"text":"As nervous",
                     	"correct":false
                     },
                     {
-                    	"text":"A picture of a very lovely woman with lustrous black hair, large dark eyes, and an exquisite mouth",
-                    	"correct":false
-                    },
-                    {
-                    	"text":"An ivory miniature of a woman",
-                    	"correct":true
+                        "text":"As courageous",
+                        "correct":true
                     }
                     
-                ]
-            },
-            {
-                "question": "What was the name of the man who seeked help from Sherlock Holmes?",
-                "answers":[
-                    {
-                    	"text":"St. Simon",
-                    	"content":false
-                   	},
-                    {
-                    	"text":"Lord St. Simon",
-                    	"content":true
-                   	},
-                    {
-                    	"text":"The Nobleman",
-                    	"content":false
-                   	},
-                    {
-                    	"text":"Lord Simon",
-                    	"content":false
-                   	}
                 ]
             }
         ]
     },
     {
         "ID":"3",
-        "content": "Sherlock Holmes and I had no difficulty in engaging a bedroom and sitting-room at the Crown Inn. They were on the upper floor, and from our window we could command a view of the avenue gate, and of the inhabited wing of Stoke Moran Manor House. At dusk we saw Dr. Grimesby Roylott drive past, his huge form looming up beside the little figure of the lad who drove him. The boy had some slight difficulty in undoing the heavy iron gates, and we heard the hoarse roar of the doctor's voice and saw the fury with which he shook his clinched fists at him. The trap drove on, and a few minutes later we saw a sudden light spring up among the trees as the lamp was lit in one of the sitting-rooms. \"Do you know, Watson,\" said Holmes as we sat together in the gathering darkness, \"I have really some scruples as to taking you to-night. There is a distinct element of danger.\" \"Can I be of assistance?\" \"Your presence might be invaluable.",
+        "content": "Only Boxer remained on his feet. He fidgeted to and fro, swishing his long black tail against his sides and occasionally uttering a little whinny of surprise. Finally he said: \r\n\r\n\u201CI do not understand it. I would not have believed that such things could happen on our farm. It must be due to some fault in ourselves. The solution, as I see it, is to work harder. From now onwards I shall get up a full hour earlier in the mornings.\u201D \r\n\r\nAnd he moved off at his lumbering trot and made for the quarry. Having got there he collected two successive loads of stone and dragged them down to the windmill before retiring for the night. \r\n\r\nThe animals huddled around Clover, not speaking. The knoll where they were lying gave them a wide prospect across the countryside. Most of Animal Farm was within their view \u2014 the long pasture stretching down to the main road, the hayfield, the spinney, the drinking pool, the ploughed fields where the young wheat was thick and green, and the red roofs of the farm buildings with the smoke curling from the chimneys. It was a clear spring evening. The grass and the bursting hedges were gilded by the level rays of the sun. Never had the farm \u2014 and with a kind of surprise they remembered that it was their own farm, every inch of it their own property \u2014 appeared to the animals so desirable a place. As Clover looked down the hillside her eyes filled with tears. If she could have spoken her thoughts, it would have been to say that this was not what they had aimed at when they had set themselves years ago to work for the overthrow of the human race. These scenes of terror and slaughter were not what they had looked forward to on that night when old Major first stirred them to rebellion. If she herself had any picture of the future, it had been of a society of animals set free from hunger and the whip, all equal, each working according to his capacity, the strong protecting the weak, as she had protected the lost brood of ducklings with her foreleg on the night of Major\u2019s speech. Instead \u2014 she did not know why \u2014 they had come to a time when no one dared speak his mind, when fierce, growling dogs roamed everywhere, and when you had to watch your comrades torn to pieces after confessing to shocking crimes. There was no thought of rebellion or disobedience in her mind. She knew that even as things were they were far better off than they had been in the days of Jones, and that before all else it was needful to prevent the return of the human beings. Whatever happened she would remain faithful, work hard, carry out the orders that were given to her, and accept the leadership of Napoleon. But still, it was not for this that she and all the other animals had hoped and toiled.",
         "questions": [
             {
-                "question": "Where did sherlock and watson stay the night?",
+                "question": "The animals' terrible grief is directly contrasted with which of the following?",
                 "answers": [
                     {
-                        "text": "bedroom with a sitting room",
-                        "correct": false
-                    },
-                    {
-                        "text": "Bedroom with a window",
-                        "correct": false
-                    },
-                    {
-                        "text": "Sitting room with a commanding view",
-                        "correct": false
-                    },
-                    {
-                        "text": "An upper floor bedroom",
-                        "correct": false
-                    },
-                    {
-                        "text": "All of the above",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "When did they see Dr Grimesby walk past?",
-                "answers": [
-                    {
-                        "text": "dawn",
-                        "correct": false
-                    },
-                    {
-                        "text": "dusk",
+                        "text": "The beauty and peaceful appearance of their own farm",
                         "correct": true
                     },
                     {
-                        "text": "noon",
+                        "text": "Boxer's increased determination",
                         "correct": false
                     },
                     {
-                        "text": "mid-morning",
+                        "text": "Clover's troubled thoughts",
+                        "correct": false
+                    },
+                    {
+                        "text": "Boxer's fidgeting",
                         "correct": false
                     }
                 ]
             },
             {
-                "question": "What happened when the boy had difficulty opening the gates?",
+                "question": "Boxer searches for the reason behind the shocking series of confessions and executions. In which one of the following lines does he find what he believes to be the cause?",
                 "answers": [
                     {
-                        "text": "hearing the fury in the doctor's voice",
+                        "text": "\"I do not understand it. I would not have believed that such things could happen on our farm\"",
+                        "correct": false
+                    },
+                    {
+                        "text": "\"It must be due to some fault in ourselves\"",
+                        "correct": false
+                    },
+                    {
+                        "text": "\"The solution, as I see it, is to work harder\"",
                         "correct": true
                     },
                     {
-                        "text": "Hearing the hoarse roar of the engine",
+                        "text": "\"From now onwards I shall get up a full hour earlier in the mornings\"",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "question": "What motivates Clover to keep working?",
+                "answers": [
+                    {
+                        "text": "The joy she feels when she gazes upon the beautiful farm",
+                        "correct": true
+                    },
+                    {
+                        "text": "The fear she feels at the thought of Mr Jones returning",
                         "correct": false
                     },
                     {
-                        "text": "Saw a lamp light up one of the sitting rooms",
+                        "text": "Fear of the fierce dogs",
                         "correct": false
                     },
                     {
-                        "text": "The doctor shook with fury",
+                        "text": "Individual loyalty to the pigs",
                         "correct": false
                     }
                 ]
