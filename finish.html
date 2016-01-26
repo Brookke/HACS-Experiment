@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/hashids.min.js"></script>
         <script type="text/javascript" src="js/cookies.js"></script>
         <script type="text/javascript" src="js/finish.js"></script>
         <style type="text/css">
@@ -17,68 +18,40 @@
             border-top: 1px solid black; 
         }
         </style>
+
     </head>
     <body>
+        <div id="ID"></div>
         <form method="POST" action="//api.cloudstitch.com/brooke/magic-form-6/datasources/sheet" class="form">
             <div class="form-group">
+                <input type="text" name="_redirect" value="https://brookehatton.me/HACS-Experiment-/debrief.html" class="form-control non-user">
+                <input type="text" name="_redirectError" value="https://brookehatton.me/HACS-Experiment-/error.html" class="form-control non-user">
                 <input type="text" name="date" id="date" class="form-control non-user">
                 <input type="text" name="signature" id="signature" class="form-control non-user">
                 <input type="text" name="text1ID" id="text1ID" class="form-control non-user">
                 <input type="text" name="text1LH" id="text1LH" class="form-control non-user">
                 <input type="text" name="text1Counter" id="text1Counter" class="form-control non-user">
+                <input type="text" name="text1Difficulty" id="text1Difficulty" class="form-control non-user">
                 <input type="text" name="text1Score" id="text1Score" class="form-control non-user">
                 <input type="text" name="text2ID" id="text2ID" class="form-control non-user">
                 <input type="text" name="text2LH" id="text2LH" class="form-control non-user">
                 <input type="text" name="text2Counter" id="text2Counter" class="form-control non-user">
+                <input type="text" name="text2Difficulty" id="text2Difficulty" class="form-control non-user">
                 <input type="text" name="text2Score" id="text2Score" class="form-control non-user">
 
-
+                <h2>Please answer these final questions</h2>
                 <label>Which text did you prefer to read:</label>
-                <select name="textPreference" id="textPreference">
+                <select name="textPreference" id="textPreference" required >
                     <option selected disabled hidden value=''></option>
                     <option value="1">Text 1</option>
                     <option value="2">Text 2</option>
                     <option value="0">Neither</option>
                 </select>
 
-                <label>How easy was text 1 to read:</label>
-                <table width="100%">
-                  <tr>
-                    <th>Very<br />Difficult</th>
-                    <th>Difficult</th>
-                    <th>Neither</th>
-                    <th>Easy</th>
-                    <th>Very<br />Easy</th>
-                  </tr>
-                  <tr>
-                    <td><input type="radio" name="text1Difficulty" value="1"></td>
-                    <td><input type="radio" name="text1Difficulty" value="2"></td>
-                    <td><input type="radio" name="text1Difficulty" value="3"></td>
-                    <td><input type="radio" name="text1Difficulty" value="4"></td>
-                    <td><input type="radio" name="text1Difficulty" value="5"></td>
-                  </tr>
-                </table>
-
-                <label>How easy was text 2 to read:</label>
-                <table width="100%">
-                  <tr>
-                    <th>Very<br />Difficult</th>
-                    <th>Difficult</th>
-                    <th>Neither</th>
-                    <th>Easy</th>
-                    <th>Very<br />Easy</th>
-                  </tr>
-                  <tr>
-                    <td><input type="radio" name="text2Difficulty" value="1"></td>
-                    <td><input type="radio" name="text2Difficulty" value="2"></td>
-                    <td><input type="radio" name="text2Difficulty" value="3"></td>
-                    <td><input type="radio" name="text2Difficulty" value="4"></td>
-                    <td><input type="radio" name="text2Difficulty" value="5"></td>
-                  </tr>
-                </table>
+                
 
                 <label>Age:</label>
-                <select name="age" id="age">
+                <select name="age" id="age" required>
                     <option selected disabled hidden value=''></option>
                     <option value="16-25">16-25</option>
                     <option value="26-35">26-35</option>
@@ -87,6 +60,7 @@
                     <option value="56-65">56-65</option>
                     <option value="66-75">66-75</option>
                     <option value="76+">76+</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
                 </select>
                 
                 <label>Gender:</label>
@@ -99,7 +73,7 @@
                 </select>
 
                 <label>Location Exprement taken in:</label>
-                <select name="location" id="location">
+                <select name="location" id="location" required>
                     <option selected disabled hidden value=''></option>
                     <option value="Home">Home/Flat</option>
                     <option value="Office">Office</option>
@@ -107,12 +81,21 @@
                     <option value="Other">Other</option>
                 </select>
 
-                <label>Do you suffer from dyslexia:</label>
-                <select name="dyslexia" id="dyslexia">
+                <label>Do you suffer from any reading disabilities (e.g. Dyslexia):</label>
+                <select name="readingDisabilities" id="readingDisabilities" required>
                     <option selected disabled hidden value=''></option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                     <option value="Prefer not to say">Prefer not to say</option>
+                </select>
+
+                <label>What platform did you use to complete this test:</label>
+                <select name="platform" id="platform" required>
+                    <option selected disabled hidden value=''></option>
+                    <option value="iOS">iOS</option>
+                    <option value="Android">Android</option>
+                    <option value="Windows">Windows Mobile</option>
+                    <option value="other">Other</option>
                 </select>
 
                 </div>

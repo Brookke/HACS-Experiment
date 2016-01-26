@@ -26,3 +26,14 @@ function eraseCookie(name) {
 function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+function getID() {
+	if (!readCookie("userID")) {
+		var hashids = new Hashids("zAfLJIzNlzh455bDguM1"),
+	  	id = hashids.encode(Date.now())
+	  	createCookie("userID", id, 30)
+	  	return id
+	} else {
+		return readCookie("userID")
+	}
+}

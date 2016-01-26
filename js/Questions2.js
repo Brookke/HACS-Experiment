@@ -20,6 +20,7 @@ $(function() {
     $('.next').click(function(){
         if (validateQuestions()) {
             createCookie("text2Score", markQuestions(), 30)
+            createCookie("text2Difficulty", $("[name=text2Difficulty]:checked").val(), 30)
             location.href = "finish.html"
         } else {
             alert("Please answer all the Questions")
@@ -34,7 +35,10 @@ function validateQuestions() {
                 return false
             }
         }
-        return true
+    if ($("[name=text2Difficulty]:checked").length == 0) {
+        return false
+    }
+    return true
 }
 
 function markQuestions() {
