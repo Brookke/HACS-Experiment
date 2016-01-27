@@ -14,6 +14,7 @@ $(function() {
     text1Difficulty = readCookie("text1Difficulty")
     ID = getID()
     $("#date").val(date)
+    $("#userID").val(ID)
     $("#signature").val(signature)
     $("#text1ID").val(text1ID)
     $("#text1Counter").val(text1Counter)
@@ -26,7 +27,7 @@ $(function() {
     $("#text1Difficulty").val(text1Difficulty)
     $("#text2Difficulty").val(text2Difficulty)
     $('#ID').text("ID:" + ID)
-    $('#userID').val(ID)
+    
 });
 function formValidation() {
     if (!$("[name=textPreference]").val()) {

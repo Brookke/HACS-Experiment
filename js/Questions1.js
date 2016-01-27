@@ -20,7 +20,7 @@ $(function() {
     $('.next').click(function(){
         if (validateQuestions()) {
             createCookie("text1Score", markQuestions(), 30)
-            createCookie("text2Difficulty", $("[name=text2Difficulty]:checked").val(), 30)
+            createCookie("text1Difficulty", $("[name=text1Difficulty]:checked").val(), 30)
             location.href = "2.html"
         } else {
             alert("Please answer all the Questions")
