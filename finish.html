@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>       
         <script type="text/javascript" src="js/hashids.min.js"></script>
         <script type="text/javascript" src="js/cookies.js"></script>
         <script type="text/javascript" src="js/finish.js"></script>
@@ -22,11 +22,12 @@
     </head>
     <body>
         <div id="ID"></div>
-        <form method="POST" action="//api.cloudstitch.com/brooke/magic-form-6/datasources/sheet" class="form">
+        <form id="finalForm" method="POST" action="//api.cloudstitch.com/brooke/magic-form-6/datasources/sheet" class="form">
             <div class="form-group">
                 <input type="text" name="_redirect" value="https://brookehatton.me/HACS-Experiment-/debrief.html" class="form-control non-user">
                 <input type="text" name="_redirectError" value="https://brookehatton.me/HACS-Experiment-/error.html" class="form-control non-user">
                 <input type="text" name="date" id="date" class="form-control non-user">
+                <input type="text" name="userID" id="userID" class="form-control non-user">
                 <input type="text" name="signature" id="signature" class="form-control non-user">
                 <input type="text" name="text1ID" id="text1ID" class="form-control non-user">
                 <input type="text" name="text1LH" id="text1LH" class="form-control non-user">
@@ -104,4 +105,5 @@
         </form>      
         
     </body>
+
 </html>
