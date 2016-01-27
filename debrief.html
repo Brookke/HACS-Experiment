@@ -4,8 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/hashids.min.js"></script
+        <script type="text/javascript" src="js/hashids.min.js"></script>
         <script type="text/javascript" src="js/cookies.js"></script>
+        <script type="text/javascript">
+        $(function() {
+            $('#ID').text("ID:" + getID())
+            $('#text1Score').text("Score text 1: " + readCookie("text1Score") + "/3")
+            $('#text2Score').text("Score text 2: " + readCookie("text2Score") + "/3")
+            $('#text1Counter').text("Time taken to read text 1: " + readCookie("text1Counter"))
+            $('#text2Counter').text("Time taken to read text 2: " + readCookie("text2Counter"))
+        });
+        </script>
         <style type="text/css">
         em {
             font-size: 0.9rem;
@@ -22,5 +31,25 @@
         <div id="ID"></div>
         <h2>Thank you, your data has been submited sucsessfully</h2>
         <h1>Debrief</h1>
+        <p>Thank you for participating in our experiment, we greatly appreciate the data you have given us. </p>
+        <p>This experiment was all about line spacing. Previous studies we looked at relating to line spacing have found that 1.5 or 2.0 line spacing is prefered by all ages, however these studies have been conducted within the limits of a lab and using desktop PC's.</p>
+        <p>Our aim was to observe the effects that line spacing had on your preference and understanding of text and whether using a mobile device plays any part in the decision.</p>
+        <p>Our hypothesis is that 1.5 line spacing will be prefered by all age groups, over the 1.0 line spacing regardless of the device used.</p>
+        <p>The data we have collected without telling you and your scores on the multiple choice questions are shown below:</p>
+        <ul>
+            <li id="text1Score"></li>
+            <li id="text2Score"></li>
+            <li id="text1Counter"></li>
+            <li id="text2Counter"></li>
+        </ul>
+        <p>All of the data we have collected and you have entered is stored securely and anonymously.</p>
+        <p>If you have any further questions please contact one of us:</p>
+        <ul>
+            <li>Andrew Skea - <a href="mailto:as2050@york.ac.uk">as2050@york.ac.uk</a></li>
+            <li>Brooke Hatton - <a href="mailto:bjeh500@york.ac.uk">bjeh500@york.ac.uk</a></li>
+            <li>Vishal Soomaney Vijaykumar - <a href="mailto:vsv501@york">vsv501@york.ac.uk</a></li>
+            <li>Thomas Braun - <a href="mailto:tb963@york.ac.uk">tb963@york.ac.uk</a></li>
+        </ul>
+        <p>Reminder: If you wish to have your data remove please email Vishal Soomaney Vijaykumar - <a href="mailto:vsv501@york">vsv501@york.ac.uk</a> quoting your unique ID listed at the top of this page</p>
     </body>
 </html>
